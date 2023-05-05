@@ -9,7 +9,7 @@ function IMC(){
     function calculator(){
         setImc(parseFloat( weight / (height * height)));
     }
-
+    // RENDER
     return(
         <div className="IMC">
             <h2>Calculo IMG</h2>
